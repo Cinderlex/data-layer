@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "name": "@data-layer/structures-internal",
+  "version": "0.0.1-alpha.0",
+  "description": "Data structures",
+  "sideEffects": false,
+  "author": "Cinderlex <cinderlex@pm.me>",
+  "license": "MIT",
+  "files": [
+    "lib/**/*.js",
+    "lib/**/*.mjs",
+    "lib/**/*.d.ts"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cinderlex/data-layer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cinderlex/data-layer/issues"
+  },
+  "homepage": "https://github.com/Cinderlex/data-layer",
+  "keywords": [
+    "data",
+    "data structures",
+    "algorithms"
+  ],
+  "engines": {
+    "node": "^20",
+    "pnpm": "^8"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.2",
+    "@types/node": "^20.10.2",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.4",
+    "vite-plugin-dts": "^3.6.4",
+    "vitest": "^1.0.4"
+  }
+}
